@@ -1,0 +1,41 @@
+/*CSS rules to specify font-families: 
+font-family: 'Catamaran', sans-serif;
+font-family: 'DM Serif Display', serif;
+font-family: 'Manrope', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Space Grotesk', sans-serif;
+font-family: 'Varela Round', sans-serif; */
+
+body {
+    text-align: center;
+}
+
+canvas {
+    border: 5px solid white;
+    border-radius: 15px;
+}
+
+#h3_container {
+    display: flex;
+    text-align: center
+}
+
+.header-div {
+    background-color: rgb(255, 225, 150);
+    top:0px;
+    text-align: center !important;
+}
+
+.footer {
+    background-color: rgb(75, 85, 96);
+    top: 82%;
+    width:100%;
+    position:fixed;
+    padding: 10px;
+    color: white;
+}
+
+.text-sm {
+    font-size: 20px;
+    font-weight: bold;
+}
